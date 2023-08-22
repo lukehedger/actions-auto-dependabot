@@ -14,7 +14,10 @@ jobs:
 
     steps:
       - name: Fetch secret
-        run: echo ${{ secrets.SUPER_TOP_SECRET }}
+        run: |
+          touch .npmrc
+          echo ${{ secrets.SUPER_TOP_SECRET }} >> .npmrc
+          cat .npmrc
 
       - name: Dependabot metadata
         id: metadata
