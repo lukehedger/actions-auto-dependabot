@@ -1,0 +1,8 @@
+{
+  "name": "actions-auto-dependabot",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "bower": "1.3.5"
+  }
+}
