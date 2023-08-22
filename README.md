@@ -1,1 +1,3 @@
 # actions-auto-dependabot
+
+:dependabot:
