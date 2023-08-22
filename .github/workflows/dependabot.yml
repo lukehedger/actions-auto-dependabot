@@ -17,7 +17,7 @@ jobs:
         run: |
           touch ${{ github.workspace }}/.npmrc
           echo ${{ secrets.SUPER_TOP_SECRET }} >> ${{ github.workspace }}/.npmrc
-          cat ${{ github.workspace }}.npmrc
+          cat ${{ github.workspace }}/.npmrc
 
       - name: Dependabot metadata
         id: metadata
