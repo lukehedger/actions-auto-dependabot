@@ -9,6 +9,7 @@
   "dependencies": {
     "jquery": "3.5.0",
     "left-pad": "1.0.2",
+    "lodash": "1.1.1",
     "node-fetch": "2.6.9"
   }
 }
