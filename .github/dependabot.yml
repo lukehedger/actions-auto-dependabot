@@ -6,7 +6,17 @@ updates:
       interval: "daily"
 
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/package-a"
+    schedule:
+      interval: "daily"
+    groups:
+      dependencies:
+        dependency-type: "production"
+      dev-dependencies:
+        dependency-type: "development"
+
+  - package-ecosystem: "npm"
+    directory: "/package-b"
     schedule:
       interval: "daily"
     groups:
