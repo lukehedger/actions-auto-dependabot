@@ -3,11 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "devDependencies": {
+    "aws-cdk": "2.88.0",
     "bower": "1.8.14",
     "requirejs": "2.3.0"
   },
   "dependencies": {
+    "aws-cdk-lib": "2.88.0",
     "axios": "0.21.2",
+    "constructs": "10.2.65",
     "jquery": "3.5.0",
     "left-pad": "1.0.2",
     "lodash": "4.17.21",
