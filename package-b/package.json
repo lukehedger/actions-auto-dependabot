@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "devDependencies": {
-    "aws-cdk": "2.97.0",
+    "aws-cdk": "2.97.1",
     "bower": "1.8.14",
     "requirejs": "2.3.6"
   },
