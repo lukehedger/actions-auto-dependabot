@@ -8,7 +8,7 @@
     "requirejs": "2.3.6"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.109.0",
+    "aws-cdk-lib": "2.110.0",
     "axios": "1.6.2",
     "constructs": "10.3.0",
     "jquery": "3.7.1",
