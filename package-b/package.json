@@ -5,7 +5,7 @@
   "devDependencies": {
     "aws-cdk": "2.138.0",
     "bower": "1.8.14",
-    "requirejs": "2.3.6"
+    "requirejs": "2.3.7"
   },
   "dependencies": {
     "aws-cdk-lib": "2.177.0",
