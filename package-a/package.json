@@ -5,7 +5,7 @@
   "devDependencies": {
     "bower": "1.8.14",
     "requirejs": "2.3.7",
-    "tape": "5.7.5"
+    "tape": "5.9.0"
   },
   "dependencies": {
     "axios": "1.11.0",
