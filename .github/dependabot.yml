@@ -4,29 +4,14 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    # Disable version updates
     open-pull-requests-limit: 0
 
   - package-ecosystem: "npm"
     directory: "/package-a"
     schedule:
       interval: "daily"
-    groups:
-      dependencies:
-        dependency-type: "production"
-      dev-dependencies:
-        dependency-type: "development"
-    # Disable version updates
-    open-pull-requests-limit: 0
 
   - package-ecosystem: "npm"
     directory: "/package-b"
     schedule:
       interval: "daily"
-    groups:
-      dependencies:
-        dependency-type: "production"
-      dev-dependencies:
-        dependency-type: "development"
-    # Disable version updates
-    open-pull-requests-limit: 0
