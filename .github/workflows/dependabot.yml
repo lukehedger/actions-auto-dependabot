@@ -13,17 +13,16 @@ jobs:
     if: ${{ github.actor == 'dependabot[bot]' }}
 
     steps:
-      - name: Fetch secret
-        run: |
-          touch ${{ github.workspace }}/.npmrc
-          echo ${{ secrets.SUPER_TOP_SECRET }} >> ${{ github.workspace }}/.npmrc
-          cat ${{ github.workspace }}/.npmrc
-
       - name: Dependabot metadata
-        id: metadata
+        id: dependabot-metadata
         uses: dependabot/fetch-metadata@v2
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Block PR automation for major versions
+        run: |
+          echo "${{ steps.dependabot-metadata.outputs.dependency-type }}"
+          echo "${{ steps.dependabot-metadata.outputs.update-type }}"
 
       - name: Approve a PR
         run: gh pr review --approve "$PR_URL"
