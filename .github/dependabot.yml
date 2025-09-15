@@ -10,8 +10,10 @@ updates:
     directory: "/package-a"
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 0
 
   - package-ecosystem: "npm"
     directory: "/package-b"
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 0
