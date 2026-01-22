@@ -13,7 +13,7 @@
 		"constructs": "10.4.2",
 		"jquery": "3.7.1",
 		"left-pad": "1.3.0",
-		"lodash": "4.17.21",
+		"lodash": "4.17.23",
 		"node-fetch": "3.3.2"
 	}
 }
